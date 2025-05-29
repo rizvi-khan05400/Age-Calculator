@@ -9,8 +9,6 @@ root.title('Age Calculator')
 statement = Label(root)
 
 # defining the function for calculating age
-
-
 def ageCalc():
     global statement
     statement.destroy()
