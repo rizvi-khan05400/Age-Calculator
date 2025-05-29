@@ -26,8 +26,9 @@ A simple desktop GUI application built with Python and Tkinter to calculate a pe
 
 4. Run the script using:
 
-```bash```
+```bash
 python age_calculator.py
+```
 
 ## 📌 Example
 Name: Alice  
