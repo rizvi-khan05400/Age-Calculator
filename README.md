@@ -32,9 +32,9 @@ Make sure Python is installed on your system:
 
 Save the script as `age_calculator.py` (or any name you prefer), then run:
 
-  -Open a terminal or command prompt and navigate to the folder containing the file.
+  - Open a terminal or command prompt and navigate to the folder containing the file.
 
-  -Run the script using:
+  - Run the script using:
 
 ```bash
 python age_calculator.py
