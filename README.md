@@ -1,26 +1,36 @@
-# 🧮 Age Calculator GUI App
+# 🧮 Age Calculator (Python GUI)
 
-A simple desktop GUI application built with Python and Tkinter to calculate a person's age based on their date of birth.
+This is a simple GUI application built with **Tkinter** that calculates a person's age in **years** and **total minutes lived**, based on the date of birth entered by the user.
 
-## 📋 Features
+---
 
-- User-friendly interface
-- Takes name and date of birth (Year, Month, Day) as input
-- Calculates current age based on today's date
-- Displays the result in the same window
+## 📌 Features
 
-## 🛠️ Technologies Used
+- Input fields for **Name**, **Year**, **Month**, and **Day**
+- Calculates:
+  - Age in years
+  - Total minutes lived (approximate)
+- Clean, user-friendly interface using Tkinter
+
+---
+
+## 🛠️ Built With
 
 - Python 3
-- Tkinter (for GUI)
-- `datetime` module (for date calculations)
+- Tkinter (Standard GUI library)
+- `datetime` module for date calculations
 
-## 🚀 How to Run
+---
 
-1. Make sure you have Python installed on your system. You can download it from [python.org](https://www.python.org/).
+## 🚀 How to Run the App
 
-2. Save the code to a file, for example:
+### 1. Prerequisites
+Make sure Python is installed on your system:  
+[Download Python](https://www.python.org/downloads/)
 
+### 2. Run the Application
+
+Save the script as `age_calculator.py` (or any name you prefer), then run:
 
 3. Open a terminal or command prompt and navigate to the folder containing the file.
 
@@ -34,4 +44,8 @@ python age_calculator.py
 Name: Alice  
 Year: 2000  
 Month: 5  
-Day: 30  
+Day: 30
+
+## ✅ Output
+Alice's age is 25 years
+That's about 13,149,600 minutes.
