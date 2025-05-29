@@ -13,13 +13,22 @@ def ageCalc():
     global statement
     statement.destroy()
     today = date.today()
-    birthDate = date(int(yearEntry.get()), int(
-        monthEntry.get()), int(dayEntry.get()))
+    birthDate = date(int(yearEntry.get()), int(monthEntry.get()), int(dayEntry.get()))
+    
+    # Calculate age in years
     age = today.year - birthDate.year
-    if today.month < birthDate.month or today.month == birthDate.month and today.day < birthDate.day:
+    if today.month < birthDate.month or (today.month == birthDate.month and today.day < birthDate.day):
         age -= 1
-    statement = Label(text=f"{nameValue.get()}'s age is {age}.")
+
+    # Calculate total days and minutes lived
+    total_days = (today - birthDate).days
+    total_minutes = total_days * 24 * 60
+
+    # Display result
+    statement = Label(text=f"{nameValue.get()}'s age is {age} years\n"
+                           f"That's about {total_minutes:,} minutes.")
     statement.grid(row=6, column=1, pady=15)
+
 
 
 # creating a label for person's name to display
