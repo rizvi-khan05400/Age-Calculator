@@ -29,7 +29,6 @@ def ageCalc():
                            f"That's about {total_minutes:,} minutes.")
     statement.grid(row=6, column=1, pady=15)
 
-
 # creating a label for person's name to display
 l1 = Label(text="Name: ")
 l1.grid(row=1, column=0)
