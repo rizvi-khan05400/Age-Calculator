@@ -47,5 +47,5 @@ Month: 5
 Day: 30
 
 ## ✅ Output
-Alice's age is 25 years.
+Alice's age is 25 years.  
 That's about 13,149,600 minutes.
